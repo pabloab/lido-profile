@@ -2431,7 +2431,7 @@
 								<setting name="suggestExistingValues">1</setting>
 							</settings>
 						</metadataElement>
-						<metadataElement code="AddressPlace" datatype="Place">
+						<metadataElement code="AddressPlace" datatype="Places">
 							<labels>
 								<label locale="en_US">
 									<name>Place</name>
@@ -2453,7 +2453,7 @@
 					</labels>
 					<settings/>
 					<elements>
-						<metadataElement code="AddressCountry" datatype="Place">
+						<metadataElement code="AddressCountry" datatype="Places">
 							<labels>
 								<label locale="en_US">
 									<name>Country</name>
@@ -2663,7 +2663,7 @@
 					</labels>
 					<settings/>
 					<elements>
-						<metadataElement code="subjectPlace" datatype="Place">
+						<metadataElement code="subjectPlace" datatype="Places">
 							<labels>
 								<label locale="en_US">
 									<name>Subject place</name>
@@ -2757,7 +2757,7 @@
 				</restriction>
 			</typeRestrictions>			
 		</metadataElement>
-		<metadataElement code="occurrencesEventPlace" datatype="Place">
+		<metadataElement code="occurrencesEventPlace" datatype="Places">
 			<labels>
 				<label locale="en_US">
 					<name>Place of event</name>
@@ -3081,7 +3081,7 @@
 					</labels>
 					<settings/>
 					<elements>
-						<metadataElement code="eventPlace" datatype="Place">
+						<metadataElement code="eventPlace" datatype="Places">
 							<labels>
 								<label locale="en_US">
 									<name>Event place</name>
@@ -4013,13 +4013,6 @@
 								<setting name="restrict_to_relationship_types">resourceSourceRelation</setting>
 							</settings>
 						</placement>
-						<placement code="ca_entities">
-							<bundle>ca_entities</bundle>
-							<settings>
-								<setting name="label" locale="en_US">Resource rights holder</setting>
-								<setting name="restrict_to_relationship_types">resourceRightsHolderRelation</setting>
-							</settings>
-						</placement>						
 					</bundlePlacements>
 				</screen>
 				<screen idno="recordWrapperInfo" default="0">
