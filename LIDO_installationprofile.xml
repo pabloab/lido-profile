@@ -665,39 +665,6 @@
 				</item>				
 			</items>
 		</list>
-		<list code="storage_location_types" hierarchical="0" system="0" vocabulary="0">
-			<labels>
-				<label locale="en_US">
-					<name>Storage location types</name>
-				</label>
-			</labels>
-			<items>
-				<item idno="blank32" enabled="1" default="1">
-					<labels>
-						<label locale="en_US" preferred="1">
-							<name_singular>-</name_singular>
-							<name_plural>-</name_plural>
-						</label>
-					</labels>
-				</item>
-				<item idno="UseFor" enabled="1" default="0">
-					<labels>
-						<label locale="en_US" preferred="1">
-							<name_singular>Use for</name_singular>
-							<name_plural>Use for</name_plural>
-						</label>
-					</labels>
-				</item>
-				<item idno="Alternative" enabled="1" default="0">
-					<labels>
-						<label locale="en_US" preferred="1">
-							<name_singular>Alternative</name_singular>
-							<name_plural>Alternative</name_plural>
-						</label>
-					</labels>
-				</item>				
-			</items>
-		</list>		
 		<list code="objectPublishedIDType_lijst" hierarchical="0" system="0" vocabulary="0">
 			<labels>
 				<label locale="en_US">
